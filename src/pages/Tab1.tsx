@@ -1,6 +1,7 @@
 import {
   IonButton,
   IonContent,
+  IonFooter,
   IonHeader,
   IonInput,
   IonItem,
@@ -62,6 +63,11 @@ const Tab1: React.FC = () => {
           Cadastrar
         </IonButton>
       </IonContent>
+      <IonFooter>
+      <IonToolbar>
+        <IonTitle size="small">Atividade desenvolvida para a disciplina Programação para Dispositivos Móveis</IonTitle>
+      </IonToolbar>
+    </IonFooter>
     </IonPage>
   );
 };

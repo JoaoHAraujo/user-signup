@@ -1,0 +1,7 @@
+{
+  "name": "student-signup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
